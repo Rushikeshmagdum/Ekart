@@ -65,7 +65,7 @@ pipeline {
         stage('build and Tag docker image') {
             steps {
                 script {
-                        sh "docker build -t youngminds73/ekart:latest -f docker/Dockerfile ."
+                        sh "docker build -t rushikesh48/rushikesh73/ekart:latest -f docker/Dockerfile ."
                     }
             }
         }
